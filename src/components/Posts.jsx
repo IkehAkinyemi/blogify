@@ -63,7 +63,7 @@ const Wrapper = styled.div`
   & > .container > div > button {
     padding: 0.4rem 0.5rem;
     border: 1px solid #f2befc;
-    border-radius: 0.35rem;
+    border-radius: 0.3rem;
     background-color: #23001e;
     color: #ffffff;
     font-weight: medium;
