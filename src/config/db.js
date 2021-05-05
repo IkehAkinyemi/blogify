@@ -1,6 +1,6 @@
 import faunadb from "faunadb";
 const client = new faunadb.Client({
-  secret: "fnAEITfiweACB7TCfXO7_RLNhVnfkuv1B1MFkwpi",
+  secret: process.env.REACT_APP_DB_KEY,
 });
 const q = faunadb.query;
 export { client, q };
