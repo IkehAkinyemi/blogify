@@ -6,8 +6,8 @@ function App() {
     <Wrapper className="App">
       <header className="App-header">
         <Navigation />
-        <Posts />
-      </header>
+      </header>{" "}
+      <Posts />
     </Wrapper>
   );
 }
