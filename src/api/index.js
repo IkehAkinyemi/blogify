@@ -1,6 +1,6 @@
 import { client, q } from "../config/db";
 
-export const getAllExpenses = client
+export const getAllPosts = client
   .query(q.Paginate(q.Match(q.Ref("indexes/all_posts"))))
   .then((response) => {
     const expenseRef = response.data;

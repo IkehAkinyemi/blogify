@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { getAllExpenses } from "../api";
+import { getAllPosts } from "../api";
 
 function Posts() {
   useEffect(() => {
-    getAllExpenses.then((res) => {
+    getAllPosts.then((res) => {
       setPosts(res);
       console.log(res);
     });
